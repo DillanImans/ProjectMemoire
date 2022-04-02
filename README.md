@@ -14,6 +14,7 @@ A static site featuring an online gift shop.
 * One of the features can be written in one component, but have not.
 * No smooth scrolling.
 * Not responsive throughout all screen sizes (will be in the next commit).
+* What do you put in componentWillUnmount?
 ----
 ### Personal Importance
 My first ever React & Redux project outside of a course. Definitely a very simple one, but still one that has taught me a lot of things. 
