@@ -15,6 +15,7 @@ A static site featuring an online gift shop.
 * No smooth scrolling.
 * Not responsive throughout all screen sizes (will be in the next commit).
 * What do you put in componentWillUnmount?
+* ARROWS DONT WORK YET I HAD TO DELETE IT.
 ----
 ### Personal Importance
 My first ever React & Redux project outside of a course. Definitely a very simple one, but still one that has taught me a lot of things. 
