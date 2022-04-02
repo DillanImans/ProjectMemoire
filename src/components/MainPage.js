@@ -12,7 +12,7 @@ import { modalOpeningAction } from '../actions';
 import box from '../photos/WoodeBoxCarousel/box1.png';
 import willo from '../photos/WilloFrameCarousel/willo2.png';
 import acryl from '../photos/AcrylicCarousel/AcrylicFrame.png';
-import arrow from '../photos/arrow.svg';
+// import arrow from '../photos/arrow.svg';
 
 class MainPage extends React.Component {
   constructor(props) {
@@ -20,7 +20,7 @@ class MainPage extends React.Component {
 //     window.addEventListener('scroll', this.arrowExistence, true);
 //     this.topRef = React.createRef();
 //     this.bottomRef = React.createRef();
-    this.state = { topScreen: true, bottomScreen: false }
+//     this.state = { topScreen: true, bottomScreen: false }
   }
 
 //   arrowExistence = () => {
