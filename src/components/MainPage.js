@@ -12,36 +12,36 @@ import { modalOpeningAction } from '../actions';
 import box from '../photos/WoodeBoxCarousel/box1.png';
 import willo from '../photos/WilloFrameCarousel/willo2.png';
 import acryl from '../photos/AcrylicCarousel/AcrylicFrame.png';
-// import arrow from '../photos/arrow.svg';
+import arrow from '../photos/arrow.svg';
 
 class MainPage extends React.Component {
   constructor(props) {
     super(props);
-//     window.addEventListener('scroll', this.arrowExistence, true);
-//     this.topRef = React.createRef();
-//     this.bottomRef = React.createRef();
-//     this.state = { topScreen: true, bottomScreen: false }
+    window.addEventListener('scroll', this.arrowExistence, true);
+    this.topRef = React.createRef();
+    this.bottomRef = React.createRef();
+    this.state = { topScreen: true, bottomScreen: false }
   }
 
-//   arrowExistence = () => {
-//     if(window.pageYOffset === 0){
-//       this.setState({ topScreen: true, bottomScreen: false })
-//     } else if (window.pageYOffset > 0 && window.pageYOffset < 927){
-//       this.setState({ topScreen: false, bottomScreen: false })
-//     } else if(window.pageYOffset === 927) {
-//       this.setState({ topScreen: false, bottomScreen: true })
-//     }
-//   }
+  arrowExistence = () => {
+    if(window.pageYOffset === 0){
+      this.setState({ topScreen: true, bottomScreen: false })
+    } else if (window.pageYOffset > 0 && window.pageYOffset < 927){
+      this.setState({ topScreen: false, bottomScreen: false })
+    } else if(window.pageYOffset === 927) {
+      this.setState({ topScreen: false, bottomScreen: true })
+    }
+  }
 
-//   goUp = () => {
-//     this.topRef.current.scrollIntoView({ behavior: "smooth" });
-//     this.setState({ topScreen: true, bottomScreen: false })
-//   }
+  goUp = () => {
+    this.topRef.current.scrollIntoView({ behavior: "smooth" });
+    this.setState({ topScreen: true, bottomScreen: false })
+  }
 
-//   goDown = () => {
-//     this.bottomRef.current.scrollIntoView({ behavior: "smooth" });
-//     this.setState({ topScreen: false, bottomScreen: true })
-//   }
+  goDown = () => {
+    this.bottomRef.current.scrollIntoView({ behavior: "smooth" });
+    this.setState({ topScreen: false, bottomScreen: true })
+  }
 
   openWB = () => {
     this.props.modalOpeningAction('wbProj');
@@ -69,11 +69,11 @@ class MainPage extends React.Component {
 
   render(){
     return (
-      <div className="mainPageContainer" id="mainPageContainer">
-//         <img src={arrow} alt="Arrow Up" className={`mainPageArrow arrowUp ${this.state.topScreen ? "arrowGone" : ""}`} 
-//         onClick={this.goUp} />
-//         <img src={arrow} alt="Arrow Down" className={`mainPageArrow arrowDown ${this.state.bottomScreen ? "arrowGone" : ""}`} 
-//         onClick={this.goDown} />
+      <div className="mainPageContainer" id="mainPageContainer" ref={this.topRef}>
+        <img src={arrow} alt="Arrow Up" className={`mainPageArrow arrowUp ${this.state.topScreen ? "arrowGone" : ""}`} 
+        onClick={this.goUp} />
+        <img src={arrow} alt="Arrow Down" className={`mainPageArrow arrowDown ${this.state.bottomScreen ? "arrowGone" : ""}`} 
+        onClick={this.goDown} />
         <div className="landingCarouselPage">
           <div className="carouselContainer">
             <CarouselTing />
@@ -101,7 +101,7 @@ class MainPage extends React.Component {
               projectHeight="width70" />
             </div>
           </div>
-          <div className="projectCatalogueMCS">
+          <div className="projectCatalogueMCS" ref={this.bottomRef}>
             more coming soon!
           </div>
         </div>
@@ -121,3 +121,5 @@ const mapStateToProps = (state) => {
 }
 
 export default connect(mapStateToProps, { modalOpeningAction })(MainPage);
+
+// ARROW DOESNT WORK IN ALL SCREENS HELP AA AA
