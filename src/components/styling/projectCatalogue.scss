@@ -1,0 +1,29 @@
+@use './constants.scss';
+
+.projectCatalogueFrameCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .projectCatalogueImage {
+    border: 15px solid constants.$accentColor;
+    border-radius: 110px;
+    cursor: pointer;
+
+    &.width70 {
+      width: 70%;
+    }
+
+    &.width70 {
+      width: 70%;
+    }
+  }
+
+  p {
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    bottom: 10px;
+  }
+}

@@ -1,0 +1,59 @@
+@use './constants';
+
+
+.headerContainer {
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 12vh;
+  background-color: constants.$backgroundColor;
+  color: constants.$accentColor;
+  justify-content: center;
+  align-items: center;
+  font-family: constants.$fontFamily;
+  font-size: 25px;
+  // position: fixed;
+  
+  .header {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid constants.$accentColor;
+
+    :hover {
+      font-weight: bold;
+    }
+
+    .headerText {
+      text-decoration: none;
+      color: constants.$accentColor;
+      padding: 30px;
+
+      &.boldedHeader {
+        font-weight: bold;
+      }
+    }
+
+    .headerLogoContainer {
+      text-decoration: none;
+      color: constants.$accentColor;
+      display: flex;
+      position: relative;
+      right: 10px;
+
+      &.boldedHeader {
+        font-weight: bold;
+      }
+
+      .headerLogo {
+        width: 50px;
+        height: 50px;
+        z-index: 10;
+        align-self: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+@use './constants';
+
+.findUsContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: constants.$backgroundColor;
+  color: constants.$accentColor;
+  font-family: constants.$fontFamily;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+
+  .iconsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    position: relative;
+    bottom: 20px;
+
+
+    .aCon {
+      width: 80%;
+      height: 70%;
+      margin: 10px;
+      text-align: center;
+      text-justify: center;
+      text-decoration: none;
+
+      .triSvg {
+        width: 100%;
+        transition: all 0.2s ease-in-out;
+  
+        &:hover {
+          transform: scale(1.2);
+          transition: all 0.2s ease-in-out;
+        }
+      }
+
+      p {
+        text-decoration: none;
+        color: constants.$accentColor;
+        position: relative;
+        top: 25px;
+      }
+    }
+  }
+}

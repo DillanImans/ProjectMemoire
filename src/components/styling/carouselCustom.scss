@@ -1,0 +1,12 @@
+@use './constants';
+
+.actualCarousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .carouselPic {
+    border-radius: 110px;
+    padding: 2px;
+  }
+}
