@@ -1,7 +1,5 @@
-# ProjectMemoire
+# Project Memoire
 > Preview Link: www.google.com
-
-### Project Features
 A mostly static site featuring a real online gift shop.
 ----
 ### Project Characteristics
