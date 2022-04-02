@@ -3,7 +3,6 @@
 
 ### Project Features
 A mostly static site featuring a real online gift shop.
-Why is this thing like this
 ----
 ### Project Characteristics
 * Looks clean and simple (supposedly).
