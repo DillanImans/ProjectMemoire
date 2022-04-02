@@ -1,10 +1,7 @@
 # Project Memoire
 > Preview Link: www.google.com
-
-My first ever React & Redux project outside of a course. Definitely a very simple one, 
-but still one that has taught me a lot of things. I'll be updating and improving this site 
-to finally make it a full-blown eCommerce site (if the owner of this business allows me to). 
-Until then, Imma make more stuff.
+----
+A mostly static site featuring a real online gift business.
 ----
 ### Project Characteristics
 * Looks clean and simple (supposedly).
