@@ -1,5 +1,5 @@
 # Project Memoire
-> Preview Link: www.google.com
+> Preview Link: https://projectmemoire.netlify.com/
 
 ### Project Features
 A static site featuring an online gift shop.
@@ -8,14 +8,14 @@ A static site featuring an online gift shop.
 ### Project Characteristics
 * Looks clean and simple (supposedly).
 * Made with React & Redux (hence reusability and scaleable).
-* "as of this commit", the project will always be improved and updated.
+* I'll keep improving it sooner or later :3
 ----
 ### Project Weaknesses
 * One of the features can be written in one component, but have not.
 * No smooth scrolling.
-* Not responsive throughout all screen sizes (will be in the next commit).
+* Not responsive throughout all screen sizes.
 * What do you put in componentWillUnmount?
-* ARROWS DONT WORK YET I HAD TO DELETE IT.
+* Bottom Arrow wont go due to non-dynamic pixel calculation (aka I didn't write the code for all screens).
 ----
 ### Personal Importance
 My first ever React & Redux project outside of a course. Definitely a very simple one, but still one that has taught me a lot of things. 
