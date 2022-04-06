@@ -3,7 +3,7 @@
 
 ![Preivew](https://github.com/DillanImans/ProjectMemoire/blob/master/src/photos/preview.png)
 
-### Project Features
+### Project Desc
 A static site featuring an online gift shop.
 
 ----
