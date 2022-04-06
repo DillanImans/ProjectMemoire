@@ -1,7 +1,7 @@
 # Project Memoire
 > Preview Link: https://projectmemoire.netlify.com/
 
-![Preivew]()
+![Preivew](https://github.com/DillanImans/ProjectMemoire/blob/master/src/photos/preview.png)
 
 ### Project Features
 A static site featuring an online gift shop.
