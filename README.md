@@ -10,6 +10,7 @@ A static site featuring an online gift shop.
 ### Project Characteristics
 * Looks clean and simple (supposedly).
 * Made with React & Redux.
+
 ----
 ### Project Weaknesses
 * One of the features can be written in one component, but have not.
@@ -17,9 +18,11 @@ A static site featuring an online gift shop.
 * Not responsive throughout all screen sizes.
 * What do you put in componentWillUnmount?
 * Bottom Arrow wont go due to non-dynamic pixel calculation (aka I didn't write the code for all screens).
+
 ----
 ### Future Updates
-none.
+No plan for any updates.
+
 ----
 ### Personal Importance
 My first ever React & Redux project outside of a course. Definitely a very simple one, but still one that has taught me a lot of things. 
